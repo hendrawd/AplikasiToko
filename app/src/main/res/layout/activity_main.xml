@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hendrawd.aplikasitoko.MainActivity"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/ic_shop"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/shop_description"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_launch"
+                android:onClick="showOnMap"
+                android:paddingRight="8dp"
+                android:text="@string/shop_address_label"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="8dp"
+                android:text="@string/shop_address"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:onClick="callOwner"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_launch"
+                android:onClick="callOwner"
+                android:paddingRight="8dp"
+                android:text="@string/shop_phone_number_label"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="8dp"
+                android:text="@string/shop_phone_number"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

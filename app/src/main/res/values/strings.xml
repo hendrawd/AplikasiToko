@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Toko Maju Mundur</string>
+    <string name="shop_description">Toko maju mundur dibangun sejak tahun 1969 oleh om Budi. Toko ini memiliki banyak barang dagangan yang dijual, mulai dari makanan ringan, obat-obatan, alat-alat rumah tangga, dan sebagainya. Walaupun toko ini terlihat kecil, tapi toko ini sangatlah terkenal. Toko ini tidak memiliki cabang.</string>
+    <string name="shop_address_label">Lokasi Toko</string>
+    <string name="shop_address">Maju Mundur Toko, RT.18/RW.8, West Kelapa Gading, North Jakarta City, Jakarta</string>
+    <string name="shop_phone_number_label">Nomor Telepon</string>
+    <string name="shop_phone_number">+622143902241</string>
+</resources>
